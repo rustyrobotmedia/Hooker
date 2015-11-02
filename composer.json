@@ -1,0 +1,21 @@
+{
+    "name": "rustyrobot/hooker",
+    "description": "Make anything hookable in PHP",
+    "type": "PHP",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Steven Pratt",
+            "email": "steven@rustyrobotmedia.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Hooker\\": "src/Hooker"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Hooker\\": "src/Hooker"}
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
+
